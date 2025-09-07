@@ -1,0 +1,31 @@
+.comment {
+    background-color: #8d5fd3;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+.comment:hover {
+    background-color: #9b6fe2;
+}
+
+.comment strong {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.comment p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.comment small {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #dddddd;
+}

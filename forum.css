@@ -1,0 +1,55 @@
+body {
+    background-color: #7e4ec2;
+    color: white;
+}
+
+.content {
+    padding-top: 20px;
+}
+
+.post, .comment {
+    background-color: #3A1075;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.comment {
+    background-color: #5b2aad;
+    margin-top: 10px;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.btn-light {
+    background-color: white;
+    color: #3A1075;
+}
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #3A1075;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+h5, p, small {
+    color: white;
+}
+
+a {
+    color: #d1bfff;
+}
